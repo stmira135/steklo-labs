@@ -1,4 +1,4 @@
-# Установка anaconda
+# Установка anaconda на Windows и Mac
 
 Существует много способов работать с `python`, один из них — установить Anaconda, пакет, в который входит в том числе `jupyter notebook`. Для этого (в случае Windows):
 1. Перейдите по [ссылке](https://www.anaconda.com/download/success) и нажмите Download. Если у вас Mac на M1/M2/M3, нажмите стрелочку рядом с Download и выберите нужный вариант (это важно).
