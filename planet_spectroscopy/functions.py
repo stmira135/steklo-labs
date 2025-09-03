@@ -52,6 +52,7 @@ def convolve(wavelength, tau, r=1000):
     t = np.convolve(tau, psf, mode='valid')/np.sum(psf)
     wvl_valid = np.convolve(wavelength, psf, mode='valid')/np.sum(psf)
     return wvl_valid, t
+    
 def transmission(location, CO2=0.96, H2O=1000*10**(-6), CH4=0.0 , CO=0.0, HDO=0.0, HCl=0.0, O2=0.0, O3=0.0, r=1000):
     if location not in ['Mars2020', 'Zhurong', 'Curiosity']:
         raise ValueError('Проверьте чтовы вы правильно указали локацию. Возможные локации: Mars2020, Zhurong и Curiosity.')
