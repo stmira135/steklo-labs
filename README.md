@@ -15,4 +15,4 @@
 
        <sub> По возможности постарайтесь представиться, если вас сложно опознать по нику </sub>
        
-## Если у вас есть желание разобраться с git, то есть отличная памятка с основными командами на [русском](https://training.github.com/downloads/ru/github-git-cheat-sheet/) и комфортная обучающая документация [гитхаба](https://docs.github.com/ru/get-started/start-your-journey/git-and-github-learning-resources)
+### Если у вас есть желание разобраться с git, то есть отличная памятка с основными командами на [русском](https://training.github.com/downloads/ru/github-git-cheat-sheet/) и комфортная обучающая документация [гитхаба](https://docs.github.com/ru/get-started/start-your-journey/git-and-github-learning-resources)
