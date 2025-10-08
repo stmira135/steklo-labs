@@ -28,7 +28,7 @@ def gaussian(x, mu, std_dev, amplitude):
     return amplitude*np.exp(-1/2*((x - mu)/std_dev)**2)
 
 def beerlambert(wavelength, k, n, l=100, r=1000):
-    l = l # переводим метры в км
+    l = l 
     tau = np.exp(-k*n*l)
     if r is None:
         return wavelength, tau
